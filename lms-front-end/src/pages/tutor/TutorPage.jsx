@@ -26,7 +26,7 @@ export default function TutorPage() {
     id: "teacher-1",
     name: storedName,
     email: localStorage.getItem("username") || "teacher@example.com",
-    role: storedRole.toLowerCase(), // "teacher" hoặc "tutor"
+    role: storedRole.toLowerCase(), 
   };
 
   const menuItems = [
@@ -36,7 +36,6 @@ export default function TutorPage() {
     { id: "documents", label: "Tài liệu" },
     { id: "students", label: "Sinh viên" },
     { id: "reports", label: "Báo cáo" },
-    // Chiêu sinh khóa học dùng route riêng /tutor/chieu-sinh
     { id: "enrollment", label: "Chiêu sinh khóa học" },
   ];
 

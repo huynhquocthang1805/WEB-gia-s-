@@ -37,7 +37,7 @@ export default function CancelRegistrationPage() {
           <div className="flex items-center gap-3">
             <img
               className="h-9 w-auto" // Kích thước logo
-              src="/images/logobachkhoa.png" // Đảm bảo đường dẫn này đúng
+              src="/images/logobachkhoa.png"
               alt="Logo Bách Khoa"
             />
             <span className="font-semibold text-sm md:text-base">
@@ -98,7 +98,7 @@ export default function CancelRegistrationPage() {
               value={search}
               onChange={(e) => setSearch(e.target.value)}
               placeholder="Tìm kiếm"
-              className="w-full border rounded-md pl-3 pr-3 py-2 text-sm" // Đã bỏ pl-8
+              className="w-full border rounded-md pl-3 pr-3 py-2 text-sm" 
             />
           </div>
           <button className="border rounded-md px-3 py-2 text-sm text-gray-600 flex items-center gap-1">

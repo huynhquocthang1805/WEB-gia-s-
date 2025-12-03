@@ -8,10 +8,9 @@ export default function Dashboard() {
     {
       label: "Khóa học đã đăng ký",
       value: 95,
-      // Đổi sang màu nền nhẹ
       bg: "bg-[#e5f0f9]", 
       iconBg: PRIMARY_COLOR,
-      iconText: "ĐK", // Ký hiệu thay thế icon: Khóa Đã Đăng Ký
+      iconText: "ĐK", 
     },
     {
       label: "Khóa học đang học",
@@ -58,8 +57,6 @@ export default function Dashboard() {
 
   // Logic chuyển hướng cho khóa học (giả định)
   const handleCourseClick = (courseCode) => {
-    // Thay đổi thành logic chuyển hướng thực tế của bạn
-    // navigate(`/mentee/courses/${courseCode}`); 
     console.log(`Chuyển đến khóa học: ${courseCode}`);
   };
 
